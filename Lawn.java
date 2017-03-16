@@ -8,13 +8,13 @@ class Lawn{
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter length and width of the lot, in feet: ");
-		length1 = sc.nextDouble();
-		width1= sc.nextDouble();
+		length2 = sc.nextDouble();
+		width2= sc.nextDouble();
 
 
 		System.out.print("Enter the length and width of the house, in feet: ");
-		length2= sc.nextDouble();
-		width2 = sc.nextDouble(); 
+		length1= sc.nextDouble();
+		width1 = sc.nextDouble(); 
 
 		area = (length1*width1)-(
 			length2*width2);
